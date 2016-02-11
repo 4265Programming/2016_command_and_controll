@@ -126,6 +126,15 @@ AddOutputFilter chunkFilter
 		<Item Name="Vision" Type="Folder" URL="../Vision">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="intake" Type="Folder" URL="../intake">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="pnumatics" Type="Folder" URL="../pnumatics">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="shooter" Type="Folder" URL="../shooter">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 		<Item Name="Autonomous.vi" Type="VI" URL="../Autonomous.vi"/>
@@ -700,22 +709,6 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Drive Operations.ctl" Type="VI" URL="../../../LabVIEW Data/2016_c_and_c_take_two/Drive/Implementation/Drive Operations.ctl"/>
-			<Item Name="pnumatics Controller.vi" Type="VI" URL="../pnumatics/Implementation/pnumatics Controller.vi"/>
-			<Item Name="pnumatics Setpoints.ctl" Type="VI" URL="../pnumatics/Implementation/pnumatics Setpoints.ctl"/>
-			<Item Name="pnumatics Operations.ctl" Type="VI" URL="../pnumatics/Implementation/pnumatics Operations.ctl"/>
-			<Item Name="pnumatics Controller Initialization.vi" Type="VI" URL="../pnumatics/Implementation/Infrastructure/pnumatics Controller Initialization.vi"/>
-			<Item Name="pnumatics Check for New Command.vi" Type="VI" URL="../pnumatics/Implementation/Infrastructure/pnumatics Check for New Command.vi"/>
-			<Item Name="shooter Controller.vi" Type="VI" URL="../shooter/Implementation/shooter Controller.vi"/>
-			<Item Name="shooter Setpoints.ctl" Type="VI" URL="../shooter/Implementation/shooter Setpoints.ctl"/>
-			<Item Name="shooter Operations.ctl" Type="VI" URL="../shooter/Implementation/shooter Operations.ctl"/>
-			<Item Name="shooter Controller Initialization.vi" Type="VI" URL="../shooter/Implementation/Infrastructure/shooter Controller Initialization.vi"/>
-			<Item Name="shooter Check for New Command.vi" Type="VI" URL="../shooter/Implementation/Infrastructure/shooter Check for New Command.vi"/>
-			<Item Name="intake Controller.vi" Type="VI" URL="../intake/Implementation/intake Controller.vi"/>
-			<Item Name="intake Setpoints.ctl" Type="VI" URL="../intake/Implementation/intake Setpoints.ctl"/>
-			<Item Name="intake Operations.ctl" Type="VI" URL="../intake/Implementation/intake Operations.ctl"/>
-			<Item Name="intake Controller Initialization.vi" Type="VI" URL="../intake/Implementation/Infrastructure/intake Controller Initialization.vi"/>
-			<Item Name="intake Check for New Command.vi" Type="VI" URL="../intake/Implementation/Infrastructure/intake Check for New Command.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
